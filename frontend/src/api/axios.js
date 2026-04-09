@@ -3,7 +3,7 @@ import axios from 'axios';
 const api = axios.create({
   // Use the environment variable if it exists (for Production on Vercel)
   // Otherwise, fallback to the local development server
-  baseURL: import.meta.env.VITE_API_URL || 'http://localhost:5000/api',
+  baseURL: import.meta.env.VITE_API_URL || 'https://port-n3h5.onrender.com/api',
 });
 
 // Optionally, you can add interceptors here to automatically include the admin token in requests
